@@ -105,19 +105,19 @@
 
         Layer3 {
             bindings = <
-&none  &none  &none     &none     &none  &none     &none  &none  &none  &none
-&none  &none  &none     &none     &none  &none     &none  &none  &none  &none
-&none  &none  &none     &none     &none  &none     &none  &none  &none  &none
-&none  &none  &mkp MB3  &mkp MB1  &none  &mkp MB2  &none  &none  &none  &none
+&none  &none  &none     &none     &none     &none  &none  &none  &none  &none
+&none  &none  &none     &none     &none     &none  &none  &none  &none  &none
+&none  &none  &none     &none     &none     &none  &none  &none  &none  &none
+&none  &none  &mkp MB3  &mkp MB1  &mkp MB2  &none  &none  &none  &none  &none
             >;
         };
 
         Layer4 {
             bindings = <
-&none  &none  &none     &none     &none  &none     &none  &none  &none  &none
-&none  &none  &none     &none     &none  &none     &none  &none  &none  &none
-&none  &none  &none     &none     &none  &none     &none  &none  &none  &none
-&none  &none  &mkp MB3  &mkp MB1  &none  &mkp MB2  &none  &none  &none  &none
+&none  &none  &none     &none     &none     &none  &none  &none  &none  &none
+&none  &none  &none     &none     &none     &none  &none  &none  &none  &none
+&none  &none  &none     &none     &none     &none  &none  &none  &none  &none
+&none  &none  &mkp MB3  &mkp MB1  &mkp MB2  &none  &none  &none  &none  &none
             >;
         };
 
