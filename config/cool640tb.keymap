@@ -22,7 +22,7 @@
         compatible = "zmk,combos";
 
         LANG1 {
-            bindings = <kp LANGUAGE_1>;
+            bindings = <&kp LANGUAGE_1>;
             key-positions = <16 17>;
             layers = <0>;
         };
