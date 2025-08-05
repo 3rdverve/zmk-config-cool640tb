@@ -21,13 +21,13 @@
     combos {
         compatible = "zmk,combos";
 
-        tab {
+        LANGUAGE_1 {
             bindings = <&kp LANGUAGE_1>;
             key-positions = <16 17>;
             layers = <0>;
         };
 
-        BK {
+        LANGUAGE_2 {
             bindings = <&kp LANGUAGE_2>;
             key-positions = <12 13>;
             layers = <0>;
