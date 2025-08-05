@@ -30,11 +30,10 @@
         LANG2 {
             bindings = <&kp LANGUAGE_2>;
             key-positions = <12 13>;
-            require-prior-idle-ms = <0>;
             layers = <0>;
         };
     };
-};
+
 
     macros {
         to_layer_0: to_layer_0 {
