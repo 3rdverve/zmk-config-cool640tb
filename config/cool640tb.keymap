@@ -35,7 +35,7 @@
     };
 };
 
-    keymap {
+keymap {
         compatible = "zmk,keymap";
 
         default_layer {
@@ -43,7 +43,7 @@
 &kp Q               &kp L      &kp U           &kp F             &mo 6      &kp CAPSLOCK  &kp W              &kp R            &kp Y      &kp P
 &mt LEFT_CONTROL E  &mt TAB I  &mt LEFT_ALT A  &mt LEFT_SHIFT O  &mo 5      &kp K         &mt RIGHT_SHIFT T  &mt RIGHT_ALT N  &mt TAB S  &mt RIGHT_CONTROL H
 &kp Z               &kp X      &kp C           &kp V             &mo 2      &kp G         &kp D              &kp M            &kp J      &kp B
-&none               &none      &kp DELETE      &kp BACKSPACE     &kp SPACE  &kp LANG1     &kp RET            &kp ESCAPE       &none      &none
+&none               &none      &kp DELETE      &kp BACKSPACE     &kp SPACE  &kp LANGUAGE_1     &kp RET            &kp ESCAPE       &none      &none
             >;
         };
 
