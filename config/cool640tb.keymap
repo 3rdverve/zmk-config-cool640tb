@@ -21,34 +21,16 @@
     combos {
         compatible = "zmk,combos";
 
-        tab {
-            bindings = <&kp ESCAPE>;
-            key-positions = <0 1>;
+        LANG1 {
+            bindings = <&kp LANG1>;
+            key-positions = <16 17>;
             layers = <0>;
         };
 
-        shift_tab {
-            bindings = <&kp TAB>;
-            key-positions = <10 11>;
+        LANG2 {
+            bindings = <&kp LANG2>;
+            key-positions = <12 13>;
             require-prior-idle-ms = <0>;
-            layers = <0>;
-        };
-
-        double_quotation {
-            bindings = <&kp CAPS>;
-            key-positions = <20 21>;
-            layers = <0>;
-        };
-
-        eq {
-            bindings = <&bt BT_CLR_ALL>;
-            key-positions = <8 9>;
-            layers = <2>;
-        };
-
-        BS {
-            bindings = <&kp BACKSPACE>;
-            key-positions = <8 9>;
             layers = <0>;
         };
     };
