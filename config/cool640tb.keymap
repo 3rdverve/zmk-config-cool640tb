@@ -22,13 +22,13 @@
         compatible = "zmk,combos";
 
         LANG1 {
-            bindings = <&kp LANG1>;
+            bindings = <kp LANGUAGE_1>;
             key-positions = <16 17>;
             layers = <0>;
         };
 
         LANG2 {
-            bindings = <&kp LANG2>;
+            bindings = <&kp LANGUAGE_2>;
             key-positions = <12 13>;
             require-prior-idle-ms = <0>;
             layers = <0>;
