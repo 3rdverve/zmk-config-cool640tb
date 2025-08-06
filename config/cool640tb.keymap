@@ -105,10 +105,10 @@ keymap {
 
         Layer5 {
             bindings = <
-&kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &kp LS(NUMBER_4)       &kp LS(N5)  &kp RS(NUMBER_6)  &kp RS(N7)    &kp RS(N8)     &kp RS(N9)  &kp RS(N0)
-&none             &none             &kp COMMA         &mt LEFT_SHIFT PERIOD  &none       &none             &RIGHT_SHIFT  &kp EQUAL      &kp UNDER   &kp BACKSLASH
-&kp SLASH         &kp GRAVE         &kp LEFT_BRACE    &kp RIGHT_BRACE        &none       &none             &kp SEMI      &kp APOS       &none       &none
-&none             &none             &kp DELETE        &kp BACKSPACE          &kp SPACE   &none             &kp LEFT_ALT  &kp BACKSPACE  &none       &none
+&kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &kp LS(NUMBER_4)       &kp LS(N5)  &kp RS(NUMBER_6)  &kp RS(N7)       &kp RS(N8)     &kp RS(N9)  &kp RS(N0)
+&none             &none             &kp COMMA         &mt LEFT_SHIFT PERIOD  &none       &none             &kp RIGHT_SHIFT  &kp EQUAL      &kp UNDER   &kp BACKSLASH
+&kp SLASH         &kp GRAVE         &kp LEFT_BRACE    &kp RIGHT_BRACE        &none       &none             &kp SEMI         &kp APOS       &none       &none
+&none             &none             &kp DELETE        &kp BACKSPACE          &kp SPACE   &none             &kp LEFT_ALT     &kp BACKSPACE  &none       &none
             >;
         };
 
