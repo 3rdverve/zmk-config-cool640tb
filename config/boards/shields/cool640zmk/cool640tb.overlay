@@ -64,12 +64,12 @@
 &adc {
     status = "okay";
     channel@0 {
-        reg = <0>;                                // チャンネル番号
-        zephyr,gain = "ADC_GAIN_1_6";             // 入力スケール
-        zephyr,reference = "ADC_REF_INTERNAL";    // 内部リファレンス
+        reg = <0>;
+        zephyr,gain = "ADC_GAIN_1_6";
+        zephyr,reference = "ADC_REF_INTERNAL";
         zephyr,acquisition-time = <ADC_ACQ_TIME_DEFAULT>;
         zephyr,resolution = <12>;
-        zephyr,input-positive = <NRF_SAADC_AIN7>; // VBAT が接続されている AIN ピン
+        zephyr,input-positive = <NRF_SAADC_AIN7>;
     };
 };
 
