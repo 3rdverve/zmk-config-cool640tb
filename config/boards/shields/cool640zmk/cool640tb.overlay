@@ -73,3 +73,10 @@
     };
 };
 
+/ {
+    zephyr,user {
+        io-channels = <&adc 0>;
+    };
+};
+
+
