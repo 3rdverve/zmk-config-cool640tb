@@ -72,3 +72,4 @@
         zephyr,input-positive = <NRF_SAADC_AIN7>; // VBAT が接続されている AIN ピン
     };
 };
+
