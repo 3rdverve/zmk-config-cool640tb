@@ -1,0 +1,9 @@
+config FUEL_GAUGE
+    bool "Fuel gauge support"
+
+config FUEL_GAUGE_MAX17048
+    bool "MAX17048 fuel gauge"
+    depends on I2C
+    select FUEL_GAUGE
+    help
+      Enable support for MAX17048 fuel gauge.
