@@ -1,3 +1,0 @@
-description: Maxim MAX17048 fuel gauge
-compatible: "maxim,max17048"
-include: i2c-device.yaml
