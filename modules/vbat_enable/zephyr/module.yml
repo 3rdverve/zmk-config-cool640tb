@@ -1,5 +1,0 @@
-name: vbat-enable
-build:
-  cmake: .
-  kconfig: Kconfig
-  

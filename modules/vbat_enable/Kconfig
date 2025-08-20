@@ -1,5 +1,0 @@
-menu "VBAT enable module"
-config VBAT_ENABLE
-    bool "Enable VBAT divider on XIAO BLE"
-    default y
-endmenu
