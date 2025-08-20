@@ -1,0 +1,8 @@
+file_format: "1"
+id: cool640tb
+name: cool640tb
+type: shield
+url: https://github.com/telzo2000/zmk-config-cool640tb
+requires: [seeeduino_xiao_ble]
+features:
+  - keys
