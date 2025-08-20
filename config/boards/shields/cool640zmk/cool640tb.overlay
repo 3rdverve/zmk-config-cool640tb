@@ -79,4 +79,17 @@
     };
 };
 
+&i2c0 {
+    status = "okay";
+    fuel_gauge: max17048@36 {
+        compatible = "maxim,max17048";
+        reg = <0x36>;
+        status = "okay";
+    };
+};
 
+/ {
+    zephyr,user {
+        io-channels = <&fuel_gauge 0>;
+    };
+};
