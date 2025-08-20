@@ -4,5 +4,9 @@ on: [push, pull_request, workflow_dispatch]
 jobs:
   build:
     uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
-
+    with:
+      board: seeed_xiao_ble_nrf52840
+      shield: cool640tb
+      cmake-args: >-
+        -DZMK_EXTRA_MODULES=${{ github.workspace }}/modules/vbat_enable
       
