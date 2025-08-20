@@ -1,0 +1,5 @@
+name: zmk-max17048
+build:
+  cmake: .
+  kconfig: Kconfig
+  
