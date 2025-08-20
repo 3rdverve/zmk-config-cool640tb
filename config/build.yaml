@@ -1,0 +1,4 @@
+include:
+  - board: seeed_xiao_ble_nrf52840
+    shield: cool640tb
+    
